@@ -1,0 +1,22 @@
+{
+  "name": "trip-planner-application",
+  "version": "1.0.0",
+  "description": "application which shows list of available hotels,flights and recommeded sites in the city ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js"
+  },
+  "author": "Priyamvad Acharya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.4"
+  }
+}
